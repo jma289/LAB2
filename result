@@ -1,0 +1,21 @@
+/afs/cats.ucsc.edu/users/s/jma289/cs12a/lab2
+
+Access list for public is
+Normal rights:
+  system:operator rlidwk
+  system:authuser rlid
+  system:anyuser rl
+  jma289 rlidwka
+
+Access list for private is
+Normal rights:
+  jma289 rlidwka
+
+total 7
+-rw-r--r--. 1 jma289 users  426 Jan 23 18:54 HelloWorld.class
+drwxr-xr-x. 2 jma289 users 2048 Jan 23 00:31 private
+-rwx------. 1 jma289 users  193 Jan 23 18:55 prog
+drwxr-xr-x. 2 jma289 users 2048 Jan 23 00:31 public
+-rw-r--r--. 1 jma289 users  233 Jan 23 18:59 result
+
+Hello, lab2!
